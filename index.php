@@ -164,7 +164,7 @@ header('Content-Type: text/html; charset=UTF-8');
                     document.getElementById("progressBar").innerHTML = 'Произошла ошибка';		
                 }
                 if(sResponseText==0){
-                    document.getElementById("progressBar").innerHTML = 'Парсер заблокирован google.';
+                    document.getElementById("progressBar").innerHTML = 'Парсер заблокирован google';
                 }
                 if(sResponseText==2){
                     document.getElementById("progressBar").innerHTML = 'За последние 12 часов поиск уже осуществлялся.';		
